@@ -1,8 +1,10 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# RAG App
+
+## Overview
+
+This is a RAG AI Assistant with Next.js, OpenAI, and Pinecone
 
 ## Getting Started
-
-First, run the development server:
 
 ```bash
 npm run dev
