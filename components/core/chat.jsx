@@ -12,33 +12,15 @@ export default function Chat() {
     const [messages, setMessages] = useState([
         { role: 'assistant', content: "Hi! I'm the rate a mechanic assistant. What would you like to know?" },
     ])
-
     const [message, setMessage] = useState('')
     const [isLoading, setIsLoading] = useState();
-
-
-    const sendMessage = async () => {
-        if (!message) return
-        setIsLoading(true)
-        setMessages([...messages, { role: 'user', content: message }])
-        setMessage('')
-        const response = await fetch('/api/chat', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({ messages }),
-        })
-        const data = await response.json()
-        setMessages([...messages, { role: 'assistant', content: data.message }])
-        setIsLoading(false)
-    }
+    
 
 
     const handleKeyPress = () => {
         if (event.key === 'Enter' && !event.shiftKey) {
             event.preventDefault()
-            sendMessage()
+            // sendMessage()
         }
     }
 

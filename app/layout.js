@@ -4,8 +4,8 @@ import { cn } from '@/lib/utils'
 import './globals.css'
 
 export const metadata = {
-  title: "RAG App",
-  description: "RAG Customer Support App",
+  title: "Rate a Mechanic",
+  description: "Rate a Mechanic RAG App",
 };
 
 const fontHeading = DM_Sans({
