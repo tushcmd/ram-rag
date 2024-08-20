@@ -57,3 +57,23 @@ h5,
 h6 {
   font-family: var(--font-heading);
 }
+
+
+@layer components {
+  .layout-container {
+    @apply container px-5 mx-auto max-w-7xl;
+  }
+
+  .page-container {
+    @apply flex flex-col gap-16 py-20 layout-container;
+  }
+}
+
+.custom-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  display: none; /* WebKit */
+}
