@@ -1,4 +1,4 @@
-# RAG App
+# Rate a Mechanic RAG App
 
 ## Overview
 

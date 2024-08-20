@@ -8,7 +8,7 @@ import { Loader2 , Send} from 'lucide-react'
 
 const handleSubmit = async (event) => {
   event.preventDefault()
-  alert("hello")
+  alert("Tush says hello")
   // const url = event.target.url.value
   // const response = await fetch('/api/submit-link', {
   //     method: 'POST',
@@ -22,6 +22,7 @@ const handleSubmit = async (event) => {
 export default function SubmitLink() {
   const [inputValue, setInputValue] = useState("");
   const [loading, setLoading] = useState(false);
+  
   return (
     <div className='page-container'>
       <div className="flex flex-col w-full gap-2">
@@ -31,7 +32,7 @@ export default function SubmitLink() {
         >       
         <Input
             type="url"
-            placeholder="Paste the website link"
+            placeholder="Paste the link"
             required
             className="text-muted-foreground"
             value={inputValue}
