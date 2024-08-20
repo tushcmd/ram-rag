@@ -1,0 +1,227 @@
+[
+    {
+        "id": 1,
+        "mechanicName": "John Doe",
+        "shopName": "Doe's Auto Repair",
+        "rating": 4.5,
+        "review": "John is very professional and quickly diagnoses issues with cars. The service is fast and reasonably priced.",
+        "specialty": "Engine Repair",
+        "location": "New York, NY"
+    },
+    {
+        "id": 2,
+        "mechanicName": "Jane Smith",
+        "shopName": "Smith's Auto Service",
+        "rating": 4.8,
+        "review": "Jane is fantastic! She explains everything clearly and shows worn-out parts that need replacement.",
+        "specialty": "Brake Repair",
+        "location": "Los Angeles, CA"
+    },
+    {
+        "id": 3,
+        "mechanicName": "Mike Johnson",
+        "shopName": "Johnson's Garage",
+        "rating": 4.7,
+        "review": "Mike provides excellent service, and your car's suspension feels like new after a visit.",
+        "specialty": "Suspension Repair",
+        "location": "Chicago, IL"
+    },
+    {
+        "id": 4,
+        "mechanicName": "Emily Davis",
+        "shopName": "Davis Auto Care",
+        "rating": 4.6,
+        "review": "Emily quickly fixes air conditioning issues with great service.",
+        "specialty": "Air Conditioning Repair",
+        "location": "Houston, TX"
+    },
+    {
+        "id": 5,
+        "mechanicName": "David Martinez",
+        "shopName": "Martinez Auto Solutions",
+        "rating": 4.4,
+        "review": "David is knowledgeable and always offers honest advice on necessary repairs.",
+        "specialty": "Transmission Repair",
+        "location": "Phoenix, AZ"
+    },
+    {
+        "id": 6,
+        "mechanicName": "Sophia Brown",
+        "shopName": "Brown's Auto Clinic",
+        "rating": 4.9,
+        "review": "Sophia is meticulous and ensures that every detail is taken care of. Her service is top-notch.",
+        "specialty": "Brake Repair",
+        "location": "Philadelphia, PA"
+    },
+    {
+        "id": 7,
+        "mechanicName": "James Wilson",
+        "shopName": "Wilson's Auto Shop",
+        "rating": 4.3,
+        "review": "James is friendly and gets the job done efficiently. He is always willing to explain what needs to be done.",
+        "specialty": "Oil Change",
+        "location": "San Antonio, TX"
+    },
+    {
+        "id": 8,
+        "mechanicName": "Ava Taylor",
+        "shopName": "Taylor's Auto Service",
+        "rating": 4.7,
+        "review": "Ava provides excellent customer service and takes the time to ensure that everything is done right.",
+        "specialty": "Tire Rotation",
+        "location": "San Diego, CA"
+    },
+    {
+        "id": 9,
+        "mechanicName": "Michael Lee",
+        "shopName": "Lee's Garage",
+        "rating": 4.2,
+        "review": "Michael is reliable and always completes repairs on time. His shop is clean and organized.",
+        "specialty": "Exhaust Repair",
+        "location": "Dallas, TX"
+    },
+    {
+        "id": 10,
+        "mechanicName": "Olivia White",
+        "shopName": "White's Auto Repair",
+        "rating": 4.8,
+        "review": "Olivia is excellent at diagnosing and fixing electrical issues in cars. Her expertise is evident.",
+        "specialty": "Electrical Systems",
+        "location": "San Jose, CA"
+    },
+    {
+        "id": 11,
+        "mechanicName": "William Harris",
+        "shopName": "Harris Auto Repair",
+        "rating": 4.5,
+        "review": "William is dependable and ensures that every job is done right the first time.",
+        "specialty": "Suspension Repair",
+        "location": "Austin, TX"
+    },
+    {
+        "id": 12,
+        "mechanicName": "Isabella Clark",
+        "shopName": "Clark's Auto Service",
+        "rating": 4.9,
+        "review": "Isabella is extremely detail-oriented and her work is always flawless.",
+        "specialty": "Brake Repair",
+        "location": "Jacksonville, FL"
+    },
+    {
+        "id": 13,
+        "mechanicName": "Lucas Walker",
+        "shopName": "Walker's Auto Shop",
+        "rating": 4.4,
+        "review": "Lucas offers great service at competitive prices. He is trustworthy and efficient.",
+        "specialty": "Engine Repair",
+        "location": "Columbus, OH"
+    },
+    {
+        "id": 14,
+        "mechanicName": "Mia Robinson",
+        "shopName": "Robinson Auto Care",
+        "rating": 4.6,
+        "review": "Mia is always ready to help and provides excellent advice on maintaining your car.",
+        "specialty": "Oil Change",
+        "location": "Fort Worth, TX"
+    },
+    {
+        "id": 15,
+        "mechanicName": "Benjamin Young",
+        "shopName": "Young's Auto Solutions",
+        "rating": 4.7,
+        "review": "Benjamin is thorough and ensures that every repair is done to the highest standard.",
+        "specialty": "Transmission Repair",
+        "location": "Charlotte, NC"
+    },
+    {
+        "id": 16,
+        "mechanicName": "Charlotte King",
+        "shopName": "King's Auto Repair",
+        "rating": 4.8,
+        "review": "Charlotte provides fast and reliable service. She is an expert in her field.",
+        "specialty": "Air Conditioning Repair",
+        "location": "Detroit, MI"
+    },
+    {
+        "id": 17,
+        "mechanicName": "Henry Adams",
+        "shopName": "Adams Auto Shop",
+        "rating": 4.3,
+        "review": "Henry is very knowledgeable and offers great advice on how to keep your car running smoothly.",
+        "specialty": "Tire Rotation",
+        "location": "El Paso, TX"
+    },
+    {
+        "id": 18,
+        "mechanicName": "Amelia Scott",
+        "shopName": "Scott's Auto Service",
+        "rating": 4.7,
+        "review": "Amelia is friendly and professional, providing excellent service every time.",
+        "specialty": "Brake Repair",
+        "location": "Memphis, TN"
+    },
+    {
+        "id": 19,
+        "mechanicName": "Daniel Green",
+        "shopName": "Green's Auto Repair",
+        "rating": 4.4,
+        "review": "Daniel is efficient and always completes repairs on time. His prices are very reasonable.",
+        "specialty": "Exhaust Repair",
+        "location": "Baltimore, MD"
+    },
+    {
+        "id": 20,
+        "mechanicName": "Sophia Edwards",
+        "shopName": "Edwards Auto Care",
+        "rating": 4.9,
+        "review": "Sophia is an expert in diagnosing and fixing complex issues. Her service is exceptional.",
+        "specialty": "Electrical Systems",
+        "location": "Boston, MA"
+    },
+    {
+        "id": 21,
+        "mechanicName": "Jackson Turner",
+        "shopName": "Turner's Auto Shop",
+        "rating": 4.6,
+        "review": "Jackson provides excellent service with a focus on quality and customer satisfaction.",
+        "specialty": "Suspension Repair",
+        "location": "Seattle, WA"
+    },
+    {
+        "id": 22,
+        "mechanicName": "Emily Moore",
+        "shopName": "Moore's Auto Service",
+        "rating": 4.8,
+        "review": "Emily is always thorough and ensures that your car is in perfect working order.",
+        "specialty": "Brake Repair",
+        "location": "Denver, CO"
+    },
+    {
+        "id": 23,
+        "mechanicName": "Alexander White",
+        "shopName": "White's Auto Repair",
+        "rating": 4.5,
+        "review": "Alexander is trustworthy and provides excellent service at a fair price.",
+        "specialty": "Engine Repair",
+        "location": "Washington, DC"
+    },
+    {
+        "id": 24,
+        "mechanicName": "Ava Thompson",
+        "shopName": "Thompson Auto Care",
+        "rating": 4.7,
+        "review": "Ava is reliable and always goes the extra mile to ensure your car is well taken care of.",
+        "specialty": "Oil Change",
+        "location": "Nashville, TN"
+    },
+    {
+        "id": 25,
+        "mechanicName": "Mason Baker",
+        "shopName": "Baker's Auto Service",
+        "rating": 4.6,
+        "review": "Mason is very detail-oriented and always makes sure that every repair is done right.",
+        "specialty": "Transmission Repair",
+        "location": "Las Vegas, NV"
+    }
+]
