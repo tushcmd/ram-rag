@@ -3,9 +3,8 @@
 import React, { useState } from 'react'
 import { Input } from '@/components/ui/input'
 import { Button } from '@/components/ui/button'
-import Link from 'next/link'
-import { Loader2 } from 'lucide-react'
-import { cn } from '@/lib/utils'
+import { Loader2 , Send} from 'lucide-react'
+
 
 const handleSubmit = async (event) => {
   event.preventDefault()
@@ -27,7 +26,7 @@ export default function SubmitLink() {
     <div className='page-container'>
       <div className="flex flex-col w-full gap-2">
         <form
-          className="relative flex items-center justify-center gap-4"
+          className="relative flex items-center justify-center gap-2"
           onSubmit={handleSubmit}
         >       
         <Input
@@ -41,10 +40,9 @@ export default function SubmitLink() {
 
           <Button
             type="submit"
-            className=""
             disabled={loading}
           >
-            {loading ? <Loader2 className="animate-spin" /> : "↵"}
+            {loading ? <Loader2 className='w-4 h-4 animate-spin' /> : <Send className='w-4 h-4' />}
           </Button>
         </form>
       </div>
