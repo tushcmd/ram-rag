@@ -71,7 +71,7 @@ async function createEmbeddings() {
     try {
       const response = await openai.embeddings.create({
         input: review.review,
-        model: 'text-embedding-ada-002', // Use the appropriate model name here
+        //model: 'text-embedding-ada-002',
       });
       const embedding = response.data[0].embedding;
       processedData.push({
