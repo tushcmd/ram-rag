@@ -5,8 +5,7 @@
         "rating": 4.5,
         "review": "John is very professional and quickly diagnoses issues with cars. The service is fast and reasonably priced.",
         "specialty": "Engine Repair",
-        "location": "New York, NY",
-        "id": "tt1BnaeZlGu53B05Ubmnc"
+        "location": "New York, NY"
     },
     {
         "mechanicName": "Jane Smith",
@@ -14,8 +13,7 @@
         "rating": 4.8,
         "review": "Jane is fantastic! She explains everything clearly and shows worn-out parts that need replacement.",
         "specialty": "Brake Repair",
-        "location": "Los Angeles, CA",
-        "id": "F_A6z2DNKzqPLLge4A-9n"
+        "location": "Los Angeles, CA"
     },
     {
         "mechanicName": "Mike Johnson",
@@ -23,8 +21,7 @@
         "rating": 4.7,
         "review": "Mike provides excellent service, and your car's suspension feels like new after a visit.",
         "specialty": "Suspension Repair",
-        "location": "Chicago, IL",
-        "id": "B-bW_KzCKkjD105BzBjdP"
+        "location": "Chicago, IL"
     },
     {
         "id": 4,
@@ -41,8 +38,7 @@
         "rating": 4.4,
         "review": "David is knowledgeable and always offers honest advice on necessary repairs.",
         "specialty": "Transmission Repair",
-        "location": "Phoenix, AZ",
-        "id": "c3yVSXc5K57xXr1eKWH6m"
+        "location": "Phoenix, AZ"
     },
     {
         "mechanicName": "Sophia Brown",
@@ -50,8 +46,7 @@
         "rating": 4.9,
         "review": "Sophia is meticulous and ensures that every detail is taken care of. Her service is top-notch.",
         "specialty": "Brake Repair",
-        "location": "Philadelphia, PA",
-        "id": "Rewe-iYnZpYM0zMV4rarM"
+        "location": "Philadelphia, PA"
     },
     {
         "mechanicName": "James Wilson",
@@ -59,8 +54,7 @@
         "rating": 4.3,
         "review": "James is friendly and gets the job done efficiently. He is always willing to explain what needs to be done.",
         "specialty": "Oil Change",
-        "location": "San Antonio, TX",
-        "id": "juW7lSXjHpqxoYU4Q14xd"
+        "location": "San Antonio, TX"
     },
     {
         "mechanicName": "Ava Taylor",
@@ -68,8 +62,7 @@
         "rating": 4.7,
         "review": "Ava provides excellent customer service and takes the time to ensure that everything is done right.",
         "specialty": "Tire Rotation",
-        "location": "San Diego, CA",
-        "id": "jMr4Hq9mH52vHzUJVbYVK"
+        "location": "San Diego, CA"
     },
     {
         "mechanicName": "Michael Lee",
@@ -77,8 +70,7 @@
         "rating": 4.2,
         "review": "Michael is reliable and always completes repairs on time. His shop is clean and organized.",
         "specialty": "Exhaust Repair",
-        "location": "Dallas, TX",
-        "id": "6QgEQz6OoAwrxGcIYbTCi"
+        "location": "Dallas, TX"
     },
     {
         "mechanicName": "Olivia White",
@@ -86,8 +78,7 @@
         "rating": 4.8,
         "review": "Olivia is excellent at diagnosing and fixing electrical issues in cars. Her expertise is evident.",
         "specialty": "Electrical Systems",
-        "location": "San Jose, CA",
-        "id": "xX1yeuJk3hHZwRzfBfwW5"
+        "location": "San Jose, CA"
     },
     {
         "mechanicName": "William Harris",
@@ -95,8 +86,7 @@
         "rating": 4.5,
         "review": "William is dependable and ensures that every job is done right the first time.",
         "specialty": "Suspension Repair",
-        "location": "Austin, TX",
-        "id": "nT7J5jZMXaXezvYyY7Hok"
+        "location": "Austin, TX"
     },
     {
         "mechanicName": "Isabella Clark",
@@ -104,8 +94,7 @@
         "rating": 4.9,
         "review": "Isabella is extremely detail-oriented and her work is always flawless.",
         "specialty": "Brake Repair",
-        "location": "Jacksonville, FL",
-        "id": "ECNB86lxYkLuo3AK65K84"
+        "location": "Jacksonville, FL"
     },
     {
         "mechanicName": "Lucas Walker",
@@ -113,8 +102,7 @@
         "rating": 4.4,
         "review": "Lucas offers great service at competitive prices. He is trustworthy and efficient.",
         "specialty": "Engine Repair",
-        "location": "Columbus, OH",
-        "id": "-zqL63iS6SLTYgWddmvUE"
+        "location": "Columbus, OH"
     },
     {
         "mechanicName": "Mia Robinson",
@@ -122,8 +110,7 @@
         "rating": 4.6,
         "review": "Mia is always ready to help and provides excellent advice on maintaining your car.",
         "specialty": "Oil Change",
-        "location": "Fort Worth, TX",
-        "id": "n2YKorxe2wbQjEAc8MX4P"
+        "location": "Fort Worth, TX"
     },
     {
         "mechanicName": "Benjamin Young",
@@ -131,8 +118,7 @@
         "rating": 4.7,
         "review": "Benjamin is thorough and ensures that every repair is done to the highest standard.",
         "specialty": "Transmission Repair",
-        "location": "Charlotte, NC",
-        "id": "kOledy0ZtpnQhj3MZN7Ck"
+        "location": "Charlotte, NC"
     },
     {
         "mechanicName": "Charlotte King",
@@ -140,8 +126,7 @@
         "rating": 4.8,
         "review": "Charlotte provides fast and reliable service. She is an expert in her field.",
         "specialty": "Air Conditioning Repair",
-        "location": "Detroit, MI",
-        "id": "MyxDZxWyMjQEmdddhDssU"
+        "location": "Detroit, MI"
     },
     {
         "mechanicName": "Henry Adams",
@@ -149,8 +134,7 @@
         "rating": 4.3,
         "review": "Henry is very knowledgeable and offers great advice on how to keep your car running smoothly.",
         "specialty": "Tire Rotation",
-        "location": "El Paso, TX",
-        "id": "ZeM3nKSI8dqlcG6UkNy3C"
+        "location": "El Paso, TX"
     },
     {
         "mechanicName": "Amelia Scott",
@@ -158,8 +142,7 @@
         "rating": 4.7,
         "review": "Amelia is friendly and professional, providing excellent service every time.",
         "specialty": "Brake Repair",
-        "location": "Memphis, TN",
-        "id": "aHjZaJOFiSYBp47xtVGVs"
+        "location": "Memphis, TN"
     },
     {
         "mechanicName": "Daniel Green",
@@ -167,8 +150,7 @@
         "rating": 4.4,
         "review": "Daniel is efficient and always completes repairs on time. His prices are very reasonable.",
         "specialty": "Exhaust Repair",
-        "location": "Baltimore, MD",
-        "id": "FOQLSWS_LQSp_dY3bJ9GE"
+        "location": "Baltimore, MD"
     },
     {
         "mechanicName": "Sophia Edwards",
@@ -176,8 +158,7 @@
         "rating": 4.9,
         "review": "Sophia is an expert in diagnosing and fixing complex issues. Her service is exceptional.",
         "specialty": "Electrical Systems",
-        "location": "Boston, MA",
-        "id": "Mg08hVs8HKmpquwuxUW36"
+        "location": "Boston, MA"
     },
     {
         "mechanicName": "Jackson Turner",
@@ -185,8 +166,7 @@
         "rating": 4.6,
         "review": "Jackson provides excellent service with a focus on quality and customer satisfaction.",
         "specialty": "Suspension Repair",
-        "location": "Seattle, WA",
-        "id": "5pdrfS7bqFoqgpO0rsDsw"
+        "location": "Seattle, WA"
     },
     {
         "mechanicName": "Emily Moore",
@@ -194,8 +174,7 @@
         "rating": 4.8,
         "review": "Emily is always thorough and ensures that your car is in perfect working order.",
         "specialty": "Brake Repair",
-        "location": "Denver, CO",
-        "id": "H9HsUWckFf953vB0dfzfU"
+        "location": "Denver, CO"
     },
     {
         "mechanicName": "Alexander White",
@@ -203,8 +182,7 @@
         "rating": 4.5,
         "review": "Alexander is trustworthy and provides excellent service at a fair price.",
         "specialty": "Engine Repair",
-        "location": "Washington, DC",
-        "id": "XM3A48I3l5RHWd9RU9i9h"
+        "location": "Washington, DC"
     },
     {
         "mechanicName": "Ava Thompson",
@@ -212,8 +190,7 @@
         "rating": 4.7,
         "review": "Ava is reliable and always goes the extra mile to ensure your car is well taken care of.",
         "specialty": "Oil Change",
-        "location": "Nashville, TN",
-        "id": "Xg3A3pANCDTINJrw4iIto"
+        "location": "Nashville, TN"
     },
     {
         "mechanicName": "Mason Baker",
@@ -221,7 +198,6 @@
         "rating": 4.6,
         "review": "Mason is very detail-oriented and always makes sure that every repair is done right.",
         "specialty": "Transmission Repair",
-        "location": "Las Vegas, NV",
-        "id": "1nUAlEjj6WrASy1CRSW3t"
+        "location": "Las Vegas, NV"
     }
 ]
