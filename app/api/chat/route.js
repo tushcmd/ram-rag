@@ -22,3 +22,5 @@ const pc = new Pinecone({
   })
   const index = pc.index('ram-index').namespace('ns1')
   const openai = new OpenAI()
+
+  
