@@ -23,7 +23,7 @@
     --border: 0 0% 60%;
     --input: 0 0% 60%;
     --ring: 0 0% 10%;
-    --radius: 0rem;
+    --radius: 1rem;
     /* --background: 36 39% 88%;
     --foreground: 36 45% 15%;
     --primary: 36 45% 70%;
@@ -80,7 +80,7 @@ h6 {
 
 @layer components {
   .layout-container {
-    @apply container max-w-5xl px-5 mx-auto;
+    @apply container px-5 mx-auto max-w-7xl;
   }
 
   .page-container {
