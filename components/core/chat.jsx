@@ -25,41 +25,44 @@ export default function Chat() {
     // }
 
     const sendMessage = async () => {
-        setMessage('')
+        setMessage('');
         setMessages((messages) => [
             ...messages,
-            { role: 'user', content: message, },
+            { role: 'user', content: message },
             { role: 'assistant', content: '' }
-        ])
-
-        const response = fetch('/api/chat', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify([...messages, { role: 'user', content: message, }]),
-        }).then(async (res) => {
-            const reader = res.body.getReader()
-            const decorder = new TextDecoder()
-            let result = ''
-
-            return reader.read().then(function processText({ done, value }) {
-                if (done) {
-                    return result
-                }
-                const text = decorder.decode(value || new Uint8Array(), { stream: true })
+        ]);
+    
+        try {
+            const response = await fetch('/api/chat', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify([...messages, { role: 'user', content: message }]),
+            });
+    
+            const reader = response.body.getReader();
+            const decoder = new TextDecoder();
+            let result = '';
+    
+            while (true) {
+                const { done, value } = await reader.read();
+                if (done) break;
+                result += decoder.decode(value, { stream: true });
                 setMessages((messages) => {
-                    let lastMessage = messages[messages.length - 1]
-                    let otherMessages = messages.slice(0, messages.length - 1)
+                    const lastMessage = messages[messages.length - 1];
                     return [
-                        ...otherMessages,
-                        { ...lastMessage, content: lastMessage.content + text },
-                    ]
-                })
-                return reader.read().then(processText)
-            })
-        })
-    }
+                        ...messages.slice(0, -1),
+                        { ...lastMessage, content: result },
+                    ];
+                });
+            }
+        } catch (error) {
+            console.error('Error:', error);
+            setMessages((messages) => [
+                ...messages,
+                { role: 'assistant', content: 'Sorry, an error occurred. Please try again.' },
+            ]);
+        }
+    };
 
 
 
