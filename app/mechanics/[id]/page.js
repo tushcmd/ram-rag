@@ -1,14 +1,14 @@
 'use client';
 
-import { useRouter, useParams } from 'next/navigation';
+import { useParams } from 'next/navigation';
 import data from '@/data.json';
 import { Avatar } from '@/components/ui/avatar';
 import { User } from 'lucide-react';
-import { Button } from '@/components/ui/button';
+import { CopyLinkButton } from '@/components/core/copy-link-btn';
+import GoBackBtn from '@/components/core/go-back-btn';
 
 export default function MechanicPage() {
   const params = useParams();
-  const router = useRouter();
 
   // Find the mechanic using the ID from the route parameters
   const mechanic = data.find((m) => m.id === params.id);
@@ -16,17 +16,15 @@ export default function MechanicPage() {
   // Handle case where mechanic is not found
   if (!mechanic) {
     return (
-      <div className="flex flex-col items-center justify-center p-4 page-layout">
+      <div className="flex flex-col items-center justify-center p-4 page-container">
         <h1 className="text-2xl font-bold">Mechanic Not Found</h1>
-        <Button variant="secondary" onClick={() => router.back()}>
-          Go Back
-        </Button>
+        <GoBackBtn />
       </div>
     );
   }
 
   return (
-    <div className="flex flex-col items-center p-4 text-center page-layout">
+    <div className="flex flex-col items-center p-4 text-center page-container">
       <div className="mt-16 space-y-4 lg:col-span-2">
         <div className="flex items-center space-x-4">
           <Avatar className="justify-center w-12 h-12 border rounded-full">
@@ -61,10 +59,9 @@ export default function MechanicPage() {
           <p>{mechanic.location}</p>
         </div>
       </div>
-      <div className="mt-8">
-        <Button variant="secondary" onClick={() => router.back()}>
-          Go Back
-        </Button>
+      <div className="flex flex-row mt-8 space-x-4">
+        <GoBackBtn />
+        <CopyLinkButton />
       </div>
     </div>
   );
