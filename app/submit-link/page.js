@@ -24,7 +24,7 @@ export default function SubmitLink() {
   const [loading, setLoading] = useState(false);
   
   return (
-    <div className='page-container'>
+    <div className='mt-4 page-container'>
       <div className="flex flex-col w-full gap-2">
         <form
           className="relative flex items-center justify-center gap-2"

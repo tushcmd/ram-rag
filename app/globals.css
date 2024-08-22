@@ -80,7 +80,7 @@ h6 {
 
 @layer components {
   .layout-container {
-    @apply container px-5 mx-auto max-w-7xl;
+    @apply container max-w-5xl px-5 mx-auto;
   }
 
   .page-container {
