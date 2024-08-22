@@ -3,13 +3,14 @@ import os
 from pinecone import Pinecone, ServerlessSpec
 from openai import OpenAI
 import json
+import time
 
 # Load environment variables
 load_dotenv(dotenv_path='.env.local')
 
 # Debugging: Print environment variables to confirm they are loaded
 print(f"PINECONE_API_KEY: {os.getenv('PINECONE_API_KEY')}")
-print(f"OPENROUTER_API_KEY: {os.getenv('OPENROUTER_API_KEY')}")
+print(f"OPENAI_API_KEY: {os.getenv('OPENAI_API_KEY')}")
 
 # Initialize Pinecone
 pc = Pinecone(api_key=os.getenv("PINECONE_API_KEY"))
@@ -38,16 +39,15 @@ except Exception as e:
 
 processed_data = []
 client = OpenAI(
-  base_url="https://openrouter.ai/api/v1",
-  api_key=os.getenv("OPENROUTER_API_KEY"),
+  api_key=os.getenv("OPENAI_API_KEY"),
 )
 
 # Create embeddings for each review
 for review in data:
+    print(f"Processing review ID: {review['id']}")
     try:
         response = client.embeddings.create(
             input=review['review'],
-            # model="meta-llama/llama-3.1-8b-instruct:free"
             model="text-embedding-3-small"
         )
         embedding = response.data[0].embedding
@@ -67,6 +67,7 @@ for review in data:
         )
     except Exception as e:
         print(f"Error creating embedding for review {review['id']}: {e}")
+    time.sleep(1)  # Add a 1-second delay between requests
 
 # Insert the embeddings into the Pinecone index
 index = pc.Index(index_name)
